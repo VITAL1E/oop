@@ -5,16 +5,7 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 public class TextParser {
-
-    String text;
-
-    TextParser() {
-/*      wordCount(text);
-        sentenceCount(text);
-        letterCount(text);
-        checkVowels(text);*/
-    }
-
+    
     public int wordCount(String data) {
 
         String trim = data.trim();
